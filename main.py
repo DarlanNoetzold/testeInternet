@@ -15,7 +15,7 @@ def internet():
     linhas.append(data_atual + " - " + hora_atual + " -- " + velocidade + "\n")
     arquivo.writelines(linhas)
     print(data_atual, " - ", hora_atual, " -- ", velocidade)
-    Timer(1, internet).start()
+    Timer(1800, internet).start()
 
 
 internet()
